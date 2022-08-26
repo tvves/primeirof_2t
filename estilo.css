@@ -28,7 +28,7 @@ h1 {
   position: absolute;
   width: 100%;
   height: 45px;
-  background: rgb(32, 85, 69);
+  background: rgb(56, 102, 230);
   top: 0;
   left: 0;
 }
@@ -50,7 +50,7 @@ li a {
 }
 li a:hover {
   color: yellow;
-  background: violet;
+  background: rgb(238, 130, 130);
 }
 #image {
    width: 30%;
@@ -65,10 +65,11 @@ li a:hover {
    top: 50px;
    left: 0;
    margin: 20px;
-   border-color: blue;
+   border-color: rgb(255, 30, 0);
    border-width: 20px;
    border-style: solid;
    padding: 20px;
+   
 }
 .conteudo {
   position: absolute;
@@ -92,9 +93,8 @@ li a:hover {
 }
 .logoGastao{
   position: absolute;
-  width: 120px;
+  width: 100px;
   height: 100px;
-  top: 0;
-  right: 0;
-  z-index: 999;
+  top: 500px;
+  left:200px;  
 }
